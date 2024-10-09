@@ -2,7 +2,8 @@ package com.verinon.model;
 
 public class User {
 	private String userId;
-	private String UserName;
+	private String userName;
+	private String password;
 
 	public String getUserId() {
 		return userId;
@@ -13,11 +14,19 @@ public class User {
 	}
 
 	public String getUserName() {
-		return UserName;
+		return userName;
 	}
 
 	public void setUserName(String userName) {
-		UserName = userName;
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 }
