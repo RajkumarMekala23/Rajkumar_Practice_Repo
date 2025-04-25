@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: system
+    password: system
+    url: jdbc:oracle:thin:@172.16.5.217:1521:XE
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+server:
+  port: 8083
